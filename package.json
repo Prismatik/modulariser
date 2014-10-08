@@ -17,5 +17,9 @@
     "recursive-readdir": "^1.2.0",
     "request": "^2.45.0",
     "semver": "^4.0.3"
+  },
+  "bin": {
+    "modulariser_update": "./modulariser_wrapper.js",
+    "modulariser_new": "./create_new_wrapper.js"
   }
 }
