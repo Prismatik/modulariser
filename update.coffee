@@ -26,4 +26,4 @@ request.get "#{api}/module/#{id}", (err, res, info) ->
       throw err if err
       request.post "#{api}/module/#{id}", {json: manifest}, (err, res, info) ->
         throw err if err
-        console.log info
+        console.log "Successfully set module #{id} to version #{version}"
